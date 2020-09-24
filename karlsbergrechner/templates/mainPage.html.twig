@@ -186,7 +186,11 @@
 </footer>
 
 
+{% block javascripts %}
 
+    {{ parent() }}
+
+    <script src="{{ asset("js/script.js") }}"></script>
 
 {% endblock %}
 
