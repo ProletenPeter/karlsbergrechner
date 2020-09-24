@@ -1,0 +1,192 @@
+{% extends 'base.html.twig' %}
+
+{% block head %}
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1 user-scalable=no">
+
+    <title>Karlsberg Punkte</title>
+
+</head>
+{% endblock %}
+
+{% block body %}
+
+<div id="accordion">
+
+    <div class="card">
+        <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour" aria-expanded="true">
+                Favoriten
+            </a>
+        </div>
+        <div id="collapseFour" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                <span id="favinfo">Tippe auf den Namen eines Getränks, um es zu den Favoriten hinzuzufügen</span>
+                <table class="table table-responsive" id="tablefavs">
+
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card">
+        <div class="bier card-header">
+            <a class="card-link" data-toggle="collapse" href="#collapseOne" aria-expanded="true">
+                Bier
+            </a>
+        </div>
+        <div id="collapseOne" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+
+                <table class="table table-responsive">
+
+                    <!--Urpils 0,5L---------------------------------------------------------------------------------------------------->
+
+                    <tr class="cstrow" id="urpils05row">
+                        <td onclick="favorite('urpils05')" id="fav">Urpils 0,5L</td>
+                        <td>16 P</td>
+                        <td id="list">
+
+                            <button type="button" onclick="minus('urpils05')"><i class="fas fa-minus"> </i></button>
+                            <span id="urpils05" class="anz">0</span>
+                            <button type="button" onclick="plus('urpils05')"><i class="fas fa-plus"></i></button>
+
+                        </td>
+                    </tr>
+
+
+
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header saft">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo" aria-expanded="true">
+                Säfte
+            </a>
+        </div>
+        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                <table class="table table-responsive">
+
+                    <!--Merziger Apfelsaft 1L---------------------------------------------------------------------------------------------------->
+
+                    <tr class="cstrow" id="mrzgApfelrow">
+                        <td onclick="favorite('mrzgApfel')" id="fav">Merziger Apfel 6x1L</td>
+                        <td>10 P</td>
+                        <td id="list">
+
+                            <button type="button" onclick="minus('mrzgApfel')"><i class="fas fa-minus"> </i></button>
+                            <span id="mrzgApfel" class="anz">0</span>
+                            <button type="button" onclick="plus('mrzgApfel')"><i class="fas fa-plus"></i></button>
+
+                        </td>
+                    </tr>
+
+
+
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree" aria-expanded="true">
+                Sonstige
+            </a>
+        </div>
+        <div id="collapseThree" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+
+                <table class="table table-responsive">
+
+
+
+                    <!-- Teinacher Natur/Medium/Classic 0.7L---------------------------------------------------------------------------------------------------->
+
+                    <tr class="cstrow" id="teinacherMediumrow">
+                        <td onclick="favorite('teinacherMedium')" id="fav">Teinacher: <br> Natur/Med./Classic 0,7L</td>
+                        <td>6 P</td>
+                        <td id="list">
+
+                            <button type="button" onclick="minus('teinacherMedium')"><i class="fas fa-minus"> </i></button>
+                            <span id="teinacherMedium" class="anz">0</span>
+                            <button type="button" onclick="plus('teinacherMedium')"><i class="fas fa-plus"></i></button>
+
+                        </td>
+                    </tr>
+
+
+
+                </table>
+
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<div id="scrollSpacer"></div>
+
+<footer>
+
+    <div id="sortSelect">
+
+        <div id="selector"> <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#selectLinks, #maxpoints">  <i class="fas fa-plus"></i>  </button> </div>
+
+        <div id="selectLinks" class="collapse btn-group">
+
+            <a class="selectBtn btn btn-primary" data-toggle="collapse" href="#collapseThree">
+                Sonstige
+            </a>
+            <a class="selectBtn btn btn-primary" data-toggle="collapse" href="#collapseTwo">
+                Säfte
+            </a>
+            <a class="selectBtn btn btn-primary" data-toggle="collapse" href="#collapseOne">
+                Bier
+            </a>
+            <a class="selectBtn btn btn-primary" data-toggle="collapse" href="#collapseFour">
+                Favoriten
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="cstFooter">
+
+        <div class="cstPunkte">
+
+            <div id="slider"></div>
+            <span id="punkteDisplay"> </span>
+            <button type="button" id="resetBtn" onclick="reset()"><i class="far fa-trash-alt"></i></button>
+
+
+            <div class="dropup">
+                <button type="button" id="settingsBtn" onclick="settings()" class=" btn dropdown-toggle text-black" data-toggle="dropdown"><i class="fas fa-cog"></i></button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#"><input id="maxpointsInput" type="number" placeholder="Puntke Kontingent" /></a>
+                    <!--<a class="dropdown-item" href="#"></a>-->
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</footer>
+
+
+
+
+{% endblock %}
+
