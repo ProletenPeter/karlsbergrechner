@@ -31,8 +31,21 @@ class MainController extends AbstractController
     public function loginPage()
     {
 
-        return new Response("login");
+        return $this->render("loginPage.html.twig", [
+            
+        ]);
         
+    }
+
+    /**
+     * @Route("admin")
+     */
+
+    public function adminPage()
+    {
+        return $this->render("adminPage.html.twig", [
+
+        ]);
     }
 
 }
