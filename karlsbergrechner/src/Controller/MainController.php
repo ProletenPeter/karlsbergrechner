@@ -4,8 +4,9 @@
 namespace App\Controller;
 
 
+use App\Entity\Getraenke;
+use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
 class MainController extends AbstractController
@@ -15,10 +16,14 @@ class MainController extends AbstractController
      * @Route("/")
      */
 
-    public function mainPage()
+    public function mainPage(EntityManagerInterface $em)
     {
 
+        $repo = $em->getRepository(Getraenke::class);
+        $bier = $repo->findBy([], ["name" => "DESC"]);
+
         return $this->render("mainPage.html.twig",[
+            "bier" => $bier,
 
         ]);
         
@@ -35,17 +40,6 @@ class MainController extends AbstractController
             
         ]);
         
-    }
-
-    /**
-     * @Route("admin")
-     */
-
-    public function adminPage()
-    {
-        return $this->render("adminPage.html.twig", [
-
-        ]);
     }
 
 }

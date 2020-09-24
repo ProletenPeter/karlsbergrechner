@@ -3,13 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="148f872b-79c8-4947-b8ec-8ca28b663fd2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/Karlsbergpunkterechner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Karlsbergpunkterechner.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karlsbergrechner/.env" beforeDir="false" afterPath="$PROJECT_DIR$/karlsbergrechner/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karlsbergrechner/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/karlsbergrechner/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karlsbergrechner/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/karlsbergrechner/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karlsbergrechner/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/karlsbergrechner/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karlsbergrechner/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/karlsbergrechner/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karlsbergrechner/src/Controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/karlsbergrechner/src/Controller/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karlsbergrechner/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/karlsbergrechner/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karlsbergrechner/templates/mainPage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/karlsbergrechner/templates/mainPage.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/karlsbergrechner/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -120,6 +130,12 @@
       <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/yaml" />
       <path value="$PROJECT_DIR$/karlsbergrechner/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/karlsbergrechner/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/doctrine/doctrine-fixtures-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1hwn5ttVhXrzAo4defZGcEDutFx" />
@@ -134,6 +150,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/karlsbergrechner/public/js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/karlsbergrechner/public/CSS" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -142,11 +167,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600930843611</updated>
-      <workItem from="1600930845208" duration="841000" />
+      <workItem from="1600930845208" duration="14375000" />
+      <workItem from="1600952903615" duration="2115000" />
+      <workItem from="1600955513607" duration="211000" />
+      <workItem from="1600955747171" duration="3096000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1563" y="589" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600933349412">
+      <screen x="-2560" y="72" width="2560" height="1417" />
+    </state>
+    <state x="-1563" y="589" key="#com.intellij.fileTypes.FileTypeChooser/-4480.872.1920.1177/0.23.2560.1348/-2560.72.2560.1417@-2560.72.2560.1417" timestamp="1600933349412" />
+    <state x="-1703" y="131" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600958082665">
+      <screen x="-2560" y="49" width="2560" height="1440" />
+    </state>
+    <state x="-1703" y="131" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-4480.849.1920.1200/-2560.49.2560.1440/0.0.2560.1440@-2560.49.2560.1440" timestamp="1600958082665" />
+    <state x="-2460" y="149" width="2360" height="1240" key="DiffContextDialog" timestamp="1600946612828">
+      <screen x="-2560" y="49" width="2560" height="1440" />
+    </state>
+    <state x="-2460" y="149" width="2360" height="1240" key="DiffContextDialog/-4480.849.1920.1200/0.0.2560.1440/-2560.49.2560.1440@-2560.49.2560.1440" timestamp="1600946612828" />
+    <state x="-1642" y="497" key="NewPhpClassDialog" timestamp="1600956199814">
+      <screen x="-2560" y="49" width="2560" height="1440" />
+    </state>
+    <state x="-1642" y="497" key="NewPhpClassDialog/-4480.849.1920.1200/-2560.49.2560.1440/0.0.2560.1440@-2560.49.2560.1440" timestamp="1600956199814" />
+    <state x="-1642" y="513" key="NewPhpClassDialog/-4480.872.1920.1177/0.23.2560.1348/-2560.72.2560.1417@-2560.72.2560.1417" timestamp="1600932219902" />
+    <state x="-1482" y="690" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600951738956">
+      <screen x="-2560" y="49" width="2560" height="1440" />
+    </state>
+    <state x="-1482" y="690" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-4480.849.1920.1200/-2560.49.2560.1440/0.0.2560.1440@-2560.49.2560.1440" timestamp="1600951738956" />
+    <state x="-1615" y="380" width="670" height="676" key="search.everywhere.popup" timestamp="1600959458881">
+      <screen x="-2560" y="49" width="2560" height="1440" />
+    </state>
+    <state x="-1615" y="380" width="670" height="676" key="search.everywhere.popup/-4480.849.1920.1200/-2560.49.2560.1440/0.0.2560.1440@-2560.49.2560.1440" timestamp="1600959458881" />
+    <state x="-1615" y="380" width="670" height="676" key="search.everywhere.popup/-4480.849.1920.1200/0.0.2560.1440/-2560.49.2560.1440@-2560.49.2560.1440" timestamp="1600946688522" />
   </component>
 </project>

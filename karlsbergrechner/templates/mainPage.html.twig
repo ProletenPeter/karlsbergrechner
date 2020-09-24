@@ -48,17 +48,21 @@
 
                     <!--Urpils 0,5L---------------------------------------------------------------------------------------------------->
 
-                    <tr class="cstrow" id="urpils05row">
-                        <td onclick="favorite('urpils05')" id="fav">Urpils 0,5L</td>
-                        <td>16 P</td>
-                        <td id="list">
+                    {% for element in bier  %}
 
-                            <button type="button" onclick="minus('urpils05')"><i class="fas fa-minus"> </i></button>
-                            <span id="urpils05" class="anz">0</span>
-                            <button type="button" onclick="plus('urpils05')"><i class="fas fa-plus"></i></button>
+                        <tr class="cstrow" id="urpils05row">
+                            <td onclick="favorite('urpils05')" id="fav">{{ element.name }} {{ element.bottlesize }}L</td>
+                            <td>{{ element.cost }} P</td>
+                            <td id="list">
 
-                        </td>
-                    </tr>
+                                <button type="button" onclick="minus('urpils05')"><i class="fas fa-minus"> </i></button>
+                                <span id="urpils05" class="anz">0</span>
+                                <button type="button" onclick="plus('urpils05')"><i class="fas fa-plus"></i></button>
+
+                            </td>
+                        </tr>
+
+                    {% endfor %}
 
 
 
@@ -192,5 +196,6 @@
 
     <script src="{{ asset("js/script.js") }}"></script>
 
+{% endblock %}
 {% endblock %}
 

@@ -104,7 +104,13 @@
       <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/yaml" />
       <path value="$PROJECT_DIR$/karlsbergrechner/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/karlsbergrechner/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/doctrine/doctrine-fixtures-bundle" />
     </include_path>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
 </project>
