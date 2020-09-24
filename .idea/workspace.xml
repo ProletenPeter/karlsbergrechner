@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="148f872b-79c8-4947-b8ec-8ca28b663fd2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Karlsbergpunkterechner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Karlsbergpunkterechner.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/karlsbergrechner/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/composer" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/laminas/laminas-code" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/laminas/laminas-eventmanager" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/webimpress/safe-writer" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/notifier" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/security-guard" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/karlsbergrechner/vendor/doctrine/orm" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1hwn5ttVhXrzAo4defZGcEDutFx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="148f872b-79c8-4947-b8ec-8ca28b663fd2" name="Default Changelist" comment="" />
+      <created>1600930843611</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600930843611</updated>
+      <workItem from="1600930845208" duration="841000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

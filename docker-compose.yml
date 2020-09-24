@@ -1,0 +1,61 @@
+version: '3.5'
+services:
+
+  nginx:
+    image: nginx:1.15.2-alpine
+    ports:
+      - "80:80"
+    volumes:
+      - "${PWD}/karlsbergrechner:/var/www:delegated"
+      - "${PWD}/docker/nginx/conf.d:/etc/nginx/conf.d:cached"
+    networks:
+      frontend:
+        aliases:
+          - delphin.docker
+          - petfriends.delphin.docker
+      backend:
+
+
+  fpm:
+    image: ambimax/php7.4-fpm-buster:7.4
+    volumes:
+      - "${PWD}/karlsbergrechner:/var/www"
+    networks:
+      - backend
+
+  cli:
+    image: ambimax/php7.4-cli-buster:7.4
+    volumes:
+      - "${PWD}/karlsbergrechner:/var/www:delegated"
+      - "${HOME}/.composer:/root/.composer:delegated"
+    environment:
+      - ENVIRONMENT=docker
+    networks:
+      - frontend
+      - backend
+
+
+  db:
+    image: mariadb:10.1
+    expose:
+      - '3306'
+    ports:
+      - "3306:3306"
+    volumes:
+      - db-data:/var/lib/mysql:delegated
+    environment:
+      - MYSQL_ROOT_PASSWORD=test
+      - MYSQL_DATABASE=default
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=eowlNCSd5gISAEqE2gdPHce0
+    networks:
+      - backend
+
+
+volumes:
+  db-data:
+  elasticsearch-data:
+
+networks:
+  frontend:
+  backend:
