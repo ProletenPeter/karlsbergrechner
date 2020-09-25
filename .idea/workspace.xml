@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="148f872b-79c8-4947-b8ec-8ca28b663fd2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Karlsbergpunkterechner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Karlsbergpunkterechner.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/karlsbergrechner/.env" beforeDir="false" afterPath="$PROJECT_DIR$/karlsbergrechner/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/karlsbergrechner/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/karlsbergrechner/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/karlsbergrechner/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/karlsbergrechner/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/karlsbergrechner/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/karlsbergrechner/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/karlsbergrechner/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/karlsbergrechner/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/karlsbergrechner/src/Controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/karlsbergrechner/src/Controller/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/karlsbergrechner/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/karlsbergrechner/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/karlsbergrechner/templates/mainPage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/karlsbergrechner/templates/mainPage.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +160,7 @@
       <workItem from="1600930845208" duration="14375000" />
       <workItem from="1600952903615" duration="2115000" />
       <workItem from="1600955513607" duration="211000" />
-      <workItem from="1600955747171" duration="3096000" />
+      <workItem from="1600955747171" duration="4015000" />
     </task>
     <servers />
   </component>
